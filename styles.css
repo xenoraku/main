@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('background.jpg') no-repeat center center fixed; /* Гифка на фоне */
+    background-size: cover;
+    color: #fff; /* Белый текст */
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #000; /* Черная рамка */
+    margin-bottom: 20px;
+}
+
+.bio {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #000; /* Черный цвет для заголовка */
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+    color: #000; /* Черный для подзаголовка */
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.buttons {
+    margin-bottom: 40px;
+}
+
+.button {
+    background-color: #fff; /* Белый фон */
+    color: #000; /* Черный текст */
+    border: 2px solid #000; /* Черная рамка */
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #000; /* Черный фон при наведении */
+    color: #fff; /* Белый текст при наведении */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-button {
+    background-color: #fff; /* Белый фон */
+    color: #000; /* Черный текст */
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #000; /* Черная рамка */
+    transition: all 0.3s ease;
+}
+
+.social-button:hover {
+    background-color: #000; /* Черный фон при наведении */
+    color: #fff; /* Белый текст при наведении */
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer p {
+    margin-top: 10px;
+}
